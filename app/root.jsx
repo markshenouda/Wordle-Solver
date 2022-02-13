@@ -13,7 +13,7 @@ export function links() {
 }
 
 export function meta() {
-  return { title: "New Remix App" };
+  return { title: "Wordle Solver by Mark Shenouda" };
 }
 
 export default function App() {

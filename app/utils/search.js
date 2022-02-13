@@ -36,7 +36,7 @@ const search = (excludeLetters, includeLetters, l1, l2, l3, l4, l5) => {
     result = result.filter((word) => word[4] === l5);
   }
 
-  return result;
+  return result.splice(0, 100);
 };
 
 export default search;
